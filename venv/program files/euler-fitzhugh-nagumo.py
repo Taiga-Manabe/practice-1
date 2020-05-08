@@ -16,7 +16,7 @@ b = 0.8
 x1 = []
 y1 = []
 
-for t in np.arange(0, 200, 1):
+for t in np.arange(0, 100, h):
     print("t=", t, " v=", v," w=", w)
     v += h * (v - pow(v, 3) / 3 - w + I)
     w += (h * (v + a - b * w) /τ )

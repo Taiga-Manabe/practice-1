@@ -6,7 +6,6 @@ import numpy as np  #NumPyライブラリ
 import matplotlib.pyplot as plt  #データ可視化ライブラリ
 
 h=0.1
-T=10
 
 x = 0
 y = 0
@@ -29,7 +28,7 @@ I = 3
 x1 = []
 y1 = []
 
-for t in np.arange(0, 100, 1):
+for t in np.arange(0, 10, h):
     print("t=", t, " x=", x," y=", y," z", z)
     phi = (-a * pow(x, 3)) + (b * pow(x, 2))
     psi = c - (d * pow(x, 2))

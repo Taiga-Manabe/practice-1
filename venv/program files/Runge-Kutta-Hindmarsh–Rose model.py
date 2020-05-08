@@ -6,7 +6,7 @@ import math
 import numpy as np  #NumPyライブラリ
 import matplotlib.pyplot as plt  #データ可視化ライブラリ
 
-h = 0.01
+h = 0.1
 
 x = 0
 y = 0
@@ -26,7 +26,7 @@ I = 3
 x1 = []
 y1 = []
 
-for t in np.arange(0, 2000, 1):
+for t in np.arange(0, 10, h):
 
     x_calc = x
     y_calc = y

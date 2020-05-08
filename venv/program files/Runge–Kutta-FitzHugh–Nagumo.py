@@ -17,7 +17,7 @@ b = 0.8
 x1 = []
 y1 = []
 
-for t in np.arange(0, 200, 1):
+for t in np.arange(0, 100, h):
     v_calc = v
     w_calc = w
     k_1 = v_calc - pow(v_calc, 3) / 3 - w_calc + I
